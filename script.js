@@ -1,3 +1,4 @@
+
 const resultado = document.querySelector('.result');
 const confirmar = document.querySelector('.igual');
 
@@ -21,3 +22,4 @@ function confirma(){
         document.getElementById('resultado').innerHTML = eval(resultado.innerHTML)
     }
 }
+
