@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #2ab3a6;
+    background-color: #dfdfdf;
 
 }
 
@@ -16,31 +16,33 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 10px;
-    background-color: #000807;
+    background-color: #144561;
 }
 
 table td {
     display: inline-block;
+    margin-left: 1px;
 }
 
-.btn {
+.botao {
     margin: 3px;
     width: 50px;
     height: 40px;
     cursor: pointer;
     border: none;
-    background-color: #0c1a21;
-    color: #dfdfdf;
+    background-color: #fb573f;
+    color: #FFFFFF;
     font-size: 16px;
     transition: all 500ms ease-in-out;
+    border-radius: 4px;
 }
 
-.btn:hover {
-    background-color: #162f3b;
+.botao:hover {
+    background-color: #7A2B1F;
 }
 
 .ac {
-    background-color: #1b7269;
+    background-color: #00face;
 }
 
 .ac:hover {
@@ -48,26 +50,28 @@ table td {
 }
 
 .especial {
-    background-color: #228f84;
+    background-color: #00face;
 }
 
 .especial:hover {
-    background-color: #18646b;
+    background-color: #228f84;
 }
 
 .igual {
-    background-color: #1b7269;
+    background-color: #00face;
 }
 
 .igual:hover {
-    background-color: #25968a;
+    background-color: #228f84;
 }
 
 .result {
     height: 100px;
     color: #dfdfdf;
     text-align: right;
-    font-size: 35px;
+    font-size: 30px;
     word-wrap: break-word;
-    border-bottom: 1px solid #25968a;
+    border-bottom: 2px solid #0f3347;
+    background-color: #174E6E;
+    border-radius: 5px;
 }
